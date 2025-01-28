@@ -22,7 +22,7 @@ void displayPattern1(int size){
             }
           }
         }
-        System.out.println("\n");
+        System.out.println("");
       }
    } 
    
@@ -61,7 +61,7 @@ void displayPattern2(int size){
             }
           }
         }
-        System.out.println("\n");
+        System.out.println("");
       }
       }
       else{
@@ -97,7 +97,7 @@ void displayPattern2(int size){
             }
           }
         }
-        System.out.println("\n");
+        System.out.println("");
       }
       }
    } 
@@ -149,7 +149,7 @@ void displayPattern3(int size){
             }
           }
         }
-        System.out.println("\n");
+        System.out.println("");
       }
    } 
    
