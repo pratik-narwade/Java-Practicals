@@ -1,5 +1,3 @@
-
-	
 	public class Practical07{
 	String printP(int i,int size){
 	String strp = "";
