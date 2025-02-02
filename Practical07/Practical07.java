@@ -98,8 +98,7 @@
 				return strk;
 			}
 		
-	String displayName(String sizeIs){
-	int size = Integer.parseInt(sizeIs);
+	String displayName(int size){
 	  String ans="";
 	  int count1=size+5-2;
 	  int count2=size+5-2;
@@ -122,6 +121,12 @@
 		  }
 		  return ans;
 		  }
-		  
+
+		
+		public static void main(String args[]){
+		  int size = Integer.parseInt(args[0]);
+		  Practical07 obj = new Practical07();
+		  System.out.print(obj.displayName(size));
+		  }   
 		
 	}
